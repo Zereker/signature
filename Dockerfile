@@ -1,7 +1,7 @@
 FROM node:14.15.1-buster-slim
 
 WORKDIR /apps/douyin
-ADD get_signa.js douyin_signature.js douyin_signature2.js package.json /apps/douyin/
+ADD get_signa.js douyin_signature.js douyin_signature2.js /apps/douyin/
 EXPOSE 8000
 
 RUN set -ex \
